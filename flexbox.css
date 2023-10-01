@@ -1,6 +1,7 @@
 .flex_container1{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 .flex_container2{
     flex: 50%;
@@ -16,11 +17,11 @@
 
 .block1{
     flex:100%;
-    padding-bottom: 2.5%;
+    height: 15%;
 }
 .block2{
     flex:25%;
-    height:512px;
+    height: 70%;
 }
 .block3{
     flex:14%;
