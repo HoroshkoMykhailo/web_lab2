@@ -2,13 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    align-content: flex-start;
 }
 .flex_container2{
     flex: 50%;
     display: flex;
     flex-direction: column;
 }
-
+@media (min-height: 400px) {
+    .block2 {
+      height: 70%;
+    }
+  }
 .flex_container3{
     flex:25%;
     display: flex;
@@ -21,7 +26,7 @@
 }
 .block2{
     flex:25%;
-    height: 70%;
+
 }
 .block3{
     flex:14%;
